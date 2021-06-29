@@ -6,6 +6,9 @@ import java.util.*
 
 class Candidato : Serializable {
 
+//    TESTE
+
+
     var nome: String
         private set(nome) {
             field = nome.lowercase()
